@@ -7,6 +7,6 @@ import (
 
 func main() {
 	var now time.Time = time.Now()
-	var year int = now.Year()
-	fmt.Println(year)
+	var Day_year int = now.YearDay()
+	fmt.Println(Day_year)
 }
