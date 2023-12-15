@@ -18,7 +18,7 @@ import (
 	*/)
 
 func Guss() {
-	
+	for i := 0; i < 10; i++ {
 		/*To get different random numbers, we need to pass a value to the rand.Seed function
 		That will "seed" random number generator
 		*/
@@ -33,12 +33,9 @@ func Guss() {
 
 		//Create a bufio Reader which lets us read keyboard input
 		reader := bufio.NewReader(os.Stdin)
-		//Ask a number
-		fmt.Println("")
-		for guesses := 0; guesses < 10; guesses++ {
-			
-		fmt.Println("You have",10-guesses ,"guesses left.")
 
+		fmt.Println("You have",10-i,"guesses left.")
+		//Ask a number
 		fmt.Print("Make a guess: ")
 		//Read what the user types up until they press Enter.
 		input, err := reader.ReadString('\n')
@@ -57,7 +54,7 @@ func Guss() {
 			fmt.Println("OOps. Your guess was LOW.")
 		} else if guess > target {
 			fmt.Println("OOps. Your guess was HIGH.")
-		} else if guess == target {
+		}else if guess == target{
 			fmt.Println("Extream Brain Boy")
 		}
 
