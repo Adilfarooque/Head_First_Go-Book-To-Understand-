@@ -34,7 +34,7 @@ func Guss() {
 		//Create a bufio Reader which lets us read keyboard input
 		reader := bufio.NewReader(os.Stdin)
 
-		fmt.Println("You have",10-i,"guesses left.")
+		fmt.Println("You have", 10-i, "guesses left.")
 		//Ask a number
 		fmt.Print("Make a guess: ")
 		//Read what the user types up until they press Enter.
@@ -54,8 +54,9 @@ func Guss() {
 			fmt.Println("OOps. Your guess was LOW.")
 		} else if guess > target {
 			fmt.Println("OOps. Your guess was HIGH.")
-		}else if guess == target{
+		} else if guess == target {
 			fmt.Println("Extream Brain Boy")
+			break
 		}
 
 		fmt.Printf("Our guss is:- %d", target)
