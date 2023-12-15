@@ -52,6 +52,8 @@ func Guss() {
 			fmt.Println("OOps. Your guess was LOW.")
 		} else if guess > target {
 			fmt.Println("OOps. Your guess was HIGH.")
+		} else if guess == target {
+			fmt.Println("Extream Brain Boy")
 		}
 
 		fmt.Printf("Our guss is:- %d", target)
