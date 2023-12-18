@@ -1,12 +1,11 @@
 package main
 
-import (
-	gussgame "Headfirstgo/guss_game"
-)
+import repeatfunc "Headfirstgo/repeat_func"
 
 func main() {
-	//callingmethod.CallingMehod()
-	//callingmethod.Gorocks()
-	//makingthegrade.PassOrFail()
-	//gussgame.Guss()
+	// callingmethod.CallingMehod()
+	// callingmethod.Gorocks()
+	// makingthegrade.PassOrFail()
+	// gussgame.Guss()
+	repeatfunc.RepeatLine("BE A GO DEV :)", 11)
 }
