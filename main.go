@@ -8,6 +8,6 @@ func main() {
 	// makingthegrade.PassOrFail()
 	// gussgame.Guss()
 	//repeatfunc.RepeatLine("BE A GO DEV :)", 11)
-	//repeatfunc.MetersPerLiter()
-	repeatfunc.Grade()
+	repeatfunc.MetersPerLiter()
+	//repeatfunc.Grade()
 }
