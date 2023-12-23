@@ -1,6 +1,8 @@
 package main
 
-import repeatfunc "Headfirstgo/repeat_func"
+import (
+	calculatesquareroot "Headfirstgo/calculate_squareroot"
+)
 
 func main() {
 	// callingmethod.CallingMehod()
@@ -8,6 +10,7 @@ func main() {
 	// makingthegrade.PassOrFail()
 	// gussgame.Guss()
 	//repeatfunc.RepeatLine("BE A GO DEV :)", 11)
-	repeatfunc.MetersPerLiter()
+	//repeatfunc.MetersPerLiter()
 	//repeatfunc.Grade()
+	calculatesquareroot.Sqrt()
 }
