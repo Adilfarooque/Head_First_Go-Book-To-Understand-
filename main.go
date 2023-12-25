@@ -1,7 +1,7 @@
 package main
 
 import (
-	poolpuzzle "Headfirstgo/pool_puzzle"
+	"Headfirstgo/double"
 )
 
 func main() {
@@ -13,5 +13,6 @@ func main() {
 	//repeatfunc.MetersPerLiter()
 	//repeatfunc.Grade()
 	//calculatesquareroot.Sqrt()
-	poolpuzzle.Pool()
+	//poolpuzzle.Pool()
+	double.Double()
 }

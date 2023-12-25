@@ -13,7 +13,7 @@ func divide(dividend float64, divisor float64) (float64, error) {
 }
 
 func Pool() {
-	quotient, err := divide(5.6, 0.0)
+	quotient, err := divide(5.6, 2.3)
 	if err != nil {
 		fmt.Println(err)
 	} else {
