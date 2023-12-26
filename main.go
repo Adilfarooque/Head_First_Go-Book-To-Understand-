@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Headfirstgo/double"
+	"Headfirstgo/pointers"
 )
 
 func main() {
@@ -14,5 +14,6 @@ func main() {
 	//repeatfunc.Grade()
 	//calculatesquareroot.Sqrt()
 	//poolpuzzle.Pool()
-	double.Double()
+	//double.Double()
+	pointers.Pointers()
 }
