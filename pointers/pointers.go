@@ -2,7 +2,6 @@ package pointers
 
 import (
 	"fmt"
-	"reflect"
 )
 
 func Pointers() {
@@ -24,7 +23,7 @@ func Pointers() {
 
 	// Pointer types
 
-	var myInt int
+	/*var myInt int
 	fmt.Println(reflect.TypeOf(&myInt))
 
 	var myFloat float64
@@ -32,4 +31,21 @@ func Pointers() {
 
 	var myBool bool
 	fmt.Println(reflect.TypeOf(&myBool))
+
+	*/
+
+	myInt := 4
+	myIntPointer := &myInt
+	fmt.Println(myIntPointer)
+	fmt.Println(*myIntPointer)
+
+	myFloat := 98.6
+	myFloatPointer := &myFloat
+	fmt.Println(myFloatPointer)
+	fmt.Println(*myFloatPointer)
+
+	*myIntPointer = 19
+	fmt.Println(*myIntPointer)
+	fmt.Println(myInt)
+
 }
