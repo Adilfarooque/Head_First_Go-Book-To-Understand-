@@ -33,19 +33,27 @@ func Pointers() {
 	fmt.Println(reflect.TypeOf(&myBool))
 
 	*/
+	/*
+		myInt := 4
+		myIntPointer := &myInt
+		fmt.Println(myIntPointer)
+		fmt.Println(*myIntPointer)
 
-	myInt := 4
-	myIntPointer := &myInt
-	fmt.Println(myIntPointer)
-	fmt.Println(*myIntPointer)
+		myFloat := 98.6
+		myFloatPointer := &myFloat
+		fmt.Println(myFloatPointer)
+		fmt.Println(*myFloatPointer)
 
-	myFloat := 98.6
-	myFloatPointer := &myFloat
-	fmt.Println(myFloatPointer)
+		*myIntPointer = 19
+		fmt.Println(*myIntPointer)
+		fmt.Println(myInt)
+	*/
+	var myFloatPointer *float64 = createPointer()
 	fmt.Println(*myFloatPointer)
+}
 
-	*myIntPointer = 19
-	fmt.Println(*myIntPointer)
-	fmt.Println(myInt)
-
+func createPointer() *float64 {
+	var myFloat = 98.5
+	//return a pointer of the specified type
+	return &myFloat
 }
