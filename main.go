@@ -15,5 +15,6 @@ func main() {
 	//calculatesquareroot.Sqrt()
 	//poolpuzzle.Pool()
 	//double.Double()
-	pointers.Pointers()
+	//pointers.Pointers()
+	pointers.PointerPool()
 }
