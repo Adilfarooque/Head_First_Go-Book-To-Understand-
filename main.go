@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Headfirstgo/pointers"
+	makingthegrade "Headfirstgo/making_the_grade"
 )
 
 func main() {
@@ -16,5 +16,6 @@ func main() {
 	//poolpuzzle.Pool()
 	//double.Double()
 	//pointers.Pointers()
-	pointers.PointerPool()
+	//pointers.PointerPool()
+	makingthegrade.Fahrenheit()
 }
