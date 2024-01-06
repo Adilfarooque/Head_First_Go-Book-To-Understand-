@@ -1,8 +1,6 @@
 package main
 
-import (
-	makingthegrade "Headfirstgo/making_the_grade"
-)
+import "Headfirstgo/pointers"
 
 func main() {
 	// callingmethod.CallingMehod()
@@ -15,7 +13,7 @@ func main() {
 	//calculatesquareroot.Sqrt()
 	//poolpuzzle.Pool()
 	//double.Double()
-	//pointers.Pointers()
+	pointers.Pointers()
 	//pointers.PointerPool()
-	makingthegrade.Fahrenheit()
+	//makingthegrade.Fahrenheit()
 }

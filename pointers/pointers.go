@@ -48,12 +48,20 @@ func Pointers() {
 		fmt.Println(*myIntPointer)
 		fmt.Println(myInt)
 	*/
-	var myFloatPointer *float64 = createPointer()
-	fmt.Println(*myFloatPointer)
+	// var myFloatPointer *float64 = createPointer()
+	// fmt.Println(*myFloatPointer)
+
+	amount:= 6
+	double(&amount)
+	fmt.Println(amount)
 }
 
-func createPointer() *float64 {
-	var myFloat = 98.5
-	//return a pointer of the specified type
-	return &myFloat
+func double(number *int){
+	*number *= 2
 }
+
+// func createPointer() *float64 {
+// 	var myFloat = 98.5
+// 	//return a pointer of the specified type
+// 	return &myFloat
+// }
