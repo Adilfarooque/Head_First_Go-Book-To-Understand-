@@ -1,6 +1,8 @@
 package main
 
-import "Headfirstgo/pointers"
+import (
+	greetingpkg "Headfirstgo/greeting_pkg"
+)
 
 func main() {
 	// callingmethod.CallingMehod()
@@ -13,7 +15,9 @@ func main() {
 	//calculatesquareroot.Sqrt()
 	//poolpuzzle.Pool()
 	//double.Double()
-	pointers.Pointers()
+	//pointers.Pointers()
 	//pointers.PointerPool()
 	//makingthegrade.Fahrenheit()
+	greetingpkg.Hello()
+	greetingpkg.Hi()
 }
