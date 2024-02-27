@@ -20,5 +20,7 @@ func main() {
 	//makingthegrade.Fahrenheit()
 	//greetingpkg.Hello()
 	//greetingpkg.Hi()
-	chapter4.Grade()
+	//chapter4.Grade()
+	chapter4.ToCelsius()
+
 }
