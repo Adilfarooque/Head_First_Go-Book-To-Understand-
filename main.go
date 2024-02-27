@@ -1,7 +1,7 @@
 package main
 
 import (
-	greetingpkg "Headfirstgo/greeting_pkg"
+	"Headfirstgo/chapter4"
 )
 
 func main() {
@@ -18,6 +18,7 @@ func main() {
 	//pointers.Pointers()
 	//pointers.PointerPool()
 	//makingthegrade.Fahrenheit()
-	greetingpkg.Hello()
-	greetingpkg.Hi()
+	//greetingpkg.Hello()
+	//greetingpkg.Hi()
+	chapter4.Grade()
 }
