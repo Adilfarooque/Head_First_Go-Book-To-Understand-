@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Headfirstgo/chapter4"
-	greetingpkg "Headfirstgo/greeting_pkg"
+	"Headfirstgo/calc"
+	"fmt"
 )
 
 func main() {
@@ -20,8 +20,9 @@ func main() {
 	//pointers.PointerPool()
 	//makingthegrade.Fahrenheit()
 	//chapter4.Grade()
-	chapter4.ToCelsius()
-	greetingpkg.Hello()
-	greetingpkg.Hi()
-
+	//chapter4.ToCelsius()
+	//greetingpkg.Hello()
+	//greetingpkg.Hi()
+	fmt.Println(calc.Add(1, 2))
+	fmt.Println(calc.Subtract(7, 3))
 }
